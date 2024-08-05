@@ -42,6 +42,5 @@ const Navbar = () => {
       </DropdownMenu>
     </div>
    )
-}
- 
+} 
 export default Navbar
