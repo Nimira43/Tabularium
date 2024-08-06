@@ -23,7 +23,7 @@ import Link from 'next/link'
 
 const Sidebar = () => {
   return (
-    <Command>
+    <Command className='bg-[#ddd] rounded-none'>
       <CommandInput placeholder='Search...' />
       <CommandList>
         <CommandEmpty>No results founds</CommandEmpty>

@@ -13,17 +13,17 @@ import {
 
 const Navbar = () => {
   return ( 
-    <div className='bg-[#111] dark:bg-[#ccc] py-2 px-5 flex justify-between text-[#111]'>
+    <div className='bg-[#111] dark:bg-[#ddd] py-2 px-5 flex justify-between text-[#111]'>
       <Link href='/'>
         <Image src={logo} alt='NimiraTech Dashboard' width={40} /> 
       </Link>
       <DropdownMenu>
         <DropdownMenuTrigger className='focus:outline-none'>
           <Avatar>
-            <AvatarFallback className='bg-[#ccc]'>NR</AvatarFallback>
+            <AvatarFallback className='bg-[#ddd]'>NR</AvatarFallback>
           </Avatar>
         </DropdownMenuTrigger>
-        <DropdownMenuContent>
+        <DropdownMenuContent className='bg-[#ddd]'>
           <DropdownMenuLabel>My Account</DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuItem>
