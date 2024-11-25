@@ -14,9 +14,9 @@ const DashboardCard = ({ title, count, icon }: DashboardCardProps) => {
         <h3 className='text-3xl text-center mb-4 font-bold text-[#111] dark:text-[#eee]'>
           { title }
         </h3>
-        <div className="flex gap-5 justify-center items-center">
+        <div className='flex gap-5 justify-center items-center'>
           { icon }
-          <h3 className="text-5xl font-semibold text-[#111] dark:text-[#eee]">
+          <h3 className='text-5xl font-semibold text-[#111] dark:text-[#eee]'>
             { count }
           </h3>  
         </div>

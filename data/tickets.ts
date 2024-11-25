@@ -41,7 +41,7 @@ const tickets: Ticket[] = [
       { id: '1', text: 'I am missing 4 hours overtime', username: 'Saeed' },
       {
         id: '2',
-        text: "Why is my tax code still wrong?",
+        text: 'Why is my tax code still wrong?',
         username: 'Eric',
       },
     ],
@@ -53,10 +53,10 @@ const tickets: Ticket[] = [
     author: 'Tariq',
     // date: '2024-05-05',
     comments: [
-      { id: '1', text: 'Thanks for software update. Issue sorted', username: 'Dale' },
+      { id: '1', text: 'Thanks for software update. Issue sorted', username: 'Dave' },
       {
         id: '2',
-        text: "I'm lost my Atlas card! Again! Sooo sorry!",
+        text: 'I'm lost my Atlas card! Again! Sooo sorry!',
         username: 'Karen',
       },
     ],
@@ -162,7 +162,7 @@ const tickets: Ticket[] = [
       { id: '1', text: 'ML is reshaping industries.', username: 'Emma' },
       {
         id: '2',
-        text: "I'm interested in reinforcement learning.",
+        text: 'I'm interested in reinforcement learning.',
         username: 'Daniel',
       },
     ],

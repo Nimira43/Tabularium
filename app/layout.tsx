@@ -5,13 +5,13 @@ import Navbar from '@/components/Navbar'
 import Sidebar from '@/components/Sidebar'
 
 const poppins = Poppins({
-  subsets: ["latin"],
+  subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 })
 
 export const metadata: Metadata = {
-  title: "NimiraTech Dashboard",
-  description: "Next JS with Shadcn project",
+  title: 'NimiraTech Dashboard',
+  description: 'Next JS with Shadcn project',
 }
 
 export default function RootLayout({
@@ -20,10 +20,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={poppins.className}>
         <Navbar />
-        <div className="flex">
+        <div className='flex'>
           <div className='hidden md:block h-[100vh] w-[300px]'>
             <Sidebar />
           </div>

@@ -1,10 +1,11 @@
-import DashboardCard from "@/components/dashboard/DashboardCard"
+import DashboardCard from '@/components/dashboard/DashboardCard'
+import TicketsTable from '@/components/tickets/TicketsTable'
 import { Ticket, Folder, UserRound, TriangleAlert } from 'lucide-react'
 
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-between gap-5 mb-5">
+      <div className='flex flex-col md:flex-row justify-between gap-5 mb-5'>
         <DashboardCard
           title='Tickets'
           count={27}
@@ -26,6 +27,7 @@ export default function Home() {
           icon={<TriangleAlert className='text-[#111]' size={72} />}
          />
       </div>
+      <TicketsTable />
     </>
   )
 }
