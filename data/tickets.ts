@@ -56,7 +56,7 @@ const tickets: Ticket[] = [
       { id: '1', text: 'Thanks for software update. Issue sorted', username: 'Dave' },
       {
         id: '2',
-        text: 'I'm lost my Atlas card! Again! Sooo sorry!',
+        text: 'I have lost my Atlas card! Again! Sooo sorry!',
         username: 'Karen',
       },
     ],
@@ -162,7 +162,7 @@ const tickets: Ticket[] = [
       { id: '1', text: 'ML is reshaping industries.', username: 'Emma' },
       {
         id: '2',
-        text: 'I'm interested in reinforcement learning.',
+        text: 'I am interested in reinforcement learning.',
         username: 'Daniel',
       },
     ],
