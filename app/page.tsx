@@ -27,7 +27,7 @@ export default function Home() {
           icon={<TriangleAlert className='text-[#111]' size={72} />}
          />
       </div>
-      <TicketsTable />
+      <TicketsTable title='Latest Tickets'/>
     </>
   )
 }
