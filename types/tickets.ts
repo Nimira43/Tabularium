@@ -3,6 +3,7 @@ export interface Ticket {
   title: string
   body: string
   author: string
+  date: string
   comments: TicketComment[]
 }
 

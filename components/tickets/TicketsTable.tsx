@@ -23,6 +23,24 @@ const TicketsTable = ({limit, title}: TicketsTablesProps) => {
             <TableHead className='hidden md:table-cell text-right'>Date</TableHead>
           </TableRow>
         </TableHeader>
+        <TableBody>
+          {tickets.map((ticket) => (
+            <TableRow key={ticket.id}>
+              <TableCell>{ticket.title}</TableCell>
+              <TableCell
+                className='hidden md:table-cell'
+              >
+                {ticket.author}
+              </TableCell>
+              <TableCell
+                className='hidden md:table-cell text-right'
+              >
+                {ticket.date}
+              </TableCell>
+
+            </TableRow>
+          ))}
+        </TableBody>
       </Table>
     </div>
   )

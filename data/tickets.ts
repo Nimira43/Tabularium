@@ -6,7 +6,7 @@ const tickets: Ticket[] = [
     title: 'Nimira Tech Learning Hub',
     body: 'Issues with courses, account lockout etc',
     author: 'Raj Johal',
-    // date: '2024-05-01',
+    date: '2024-05-01',
     comments: [
       { id: '1', text: 'Courses not showing as completed', username: 'Jang' },
       {
@@ -21,7 +21,7 @@ const tickets: Ticket[] = [
     title: 'Skorpion IDS',
     body: 'All issues regarding problems with Skorpion',
     author: 'Tim Jung',
-    // date: '2024-04-28',
+    date: '2024-04-28',
     comments: [
       { id: '1', text: 'Skorpion keeping block my emails', username: 'Gerhard' },
       {
@@ -36,7 +36,7 @@ const tickets: Ticket[] = [
     title: 'Abacas',
     body: 'Payroll',
     author: 'Gemma Rutherford',
-    // date: '2024-05-03',
+    date: '2024-05-03',
     comments: [
       { id: '1', text: 'I am missing 4 hours overtime', username: 'Saeed' },
       {
@@ -51,7 +51,7 @@ const tickets: Ticket[] = [
     title: 'Atlas Companion',
     body: 'All issues with remote access and control of Atlas',
     author: 'Tariq',
-    // date: '2024-05-05',
+    date: '2024-05-05',
     comments: [
       { id: '1', text: 'Thanks for software update. Issue sorted', username: 'Dave' },
       {
@@ -66,7 +66,7 @@ const tickets: Ticket[] = [
     title: 'Microsoft Office',
     body: 'Report any issues or help request with Office here.',
     author: 'Meena Gupal',
-    // date: '2024-05-08',
+    date: '2024-05-08',
     comments: [
       {
         id: '1',
@@ -85,7 +85,7 @@ const tickets: Ticket[] = [
     title: 'Microservices',
     body: 'Issues relating to small dedicated services.',
     author: 'Nick Rabone',
-    // date: '2024-05-10',
+    date: '2024-05-10',
     comments: [
       {
         id: '1',
@@ -104,7 +104,7 @@ const tickets: Ticket[] = [
     title: 'Cybersecurity in the Digital Age',
     body: 'As technology advances, cybersecurity becomes...',
     author: 'Michael Johnson',
-    // date: '2024-05-12',
+    date: '2024-05-12',
     comments: [
       {
         id: '1',
@@ -119,7 +119,7 @@ const tickets: Ticket[] = [
     title: 'Artificial Neural Networks: Mimicking the Brain',
     body: 'Artificial Neural Networks (ANNs) are inspired by the...',
     author: 'Isabella White',
-    // date: '2024-05-15',
+    date: '2024-05-15',
     comments: [
       {
         id: '1',
@@ -138,7 +138,7 @@ const tickets: Ticket[] = [
     title: 'Cloud Computing: Enabling Scalable Solutions',
     body: 'Cloud computing provides on-demand access to computing...',
     author: 'James Taylor',
-    // date: '2024-05-18',
+    date: '2024-05-18',
     comments: [
       {
         id: '1',
@@ -157,7 +157,7 @@ const tickets: Ticket[] = [
     title: 'Machine Learning: Powering Intelligent Systems',
     body: 'Machine Learning (ML) algorithms enable computers...',
     author: 'Ava Johnson',
-    // date: '2024-05-20',
+    date: '2024-05-20',
     comments: [
       { id: '1', text: 'ML is reshaping industries.', username: 'Emma' },
       {
