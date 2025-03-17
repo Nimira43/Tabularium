@@ -16,6 +16,13 @@ const TicketsTable = ({limit, title}: TicketsTablesProps) => {
       </h3>
       <Table>
         <TableCaption>Recent Tickets </TableCaption>
+        <TableHeader>
+          <TableRow>
+            <TableHead>Issue</TableHead>
+            <TableHead>User</TableHead>
+            <TableHead>Date</TableHead>
+          </TableRow>
+        </TableHeader>
       </Table>
     </div>
   )
