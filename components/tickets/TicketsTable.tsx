@@ -19,8 +19,8 @@ const TicketsTable = ({limit, title}: TicketsTablesProps) => {
         <TableHeader>
           <TableRow>
             <TableHead>Issue</TableHead>
-            <TableHead>User</TableHead>
-            <TableHead>Date</TableHead>
+            <TableHead className='hidden md:table-cell'>User</TableHead>
+            <TableHead className='hidden md:table-cell text-right'>Date</TableHead>
           </TableRow>
         </TableHeader>
       </Table>
