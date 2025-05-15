@@ -8,8 +8,8 @@ import Link from 'next/link'
 
 const Sidebar = () => {
   return ( 
-    <Command>
-      <CommandInput placeholder='Type a command or search...' />
+    <Command className='bg-grey-light-extra border-r-[1px] border-main rounded-none'>
+      <CommandInput placeholder='Search...' />
       <CommandList>
         <CommandEmpty>No results found.</CommandEmpty>
         <CommandGroup heading='Suggestions'>
