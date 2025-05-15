@@ -13,9 +13,23 @@ const Sidebar = () => {
       <CommandList>
         <CommandEmpty>No results found.</CommandEmpty>
         <CommandGroup heading='Suggestions'>
-          <CommandItem>Calendar</CommandItem>
-          <CommandItem>Search Emoji</CommandItem>
-          <CommandItem>Calculator</CommandItem>
+          <CommandItem>
+            <RxDashboard className='uppercase mr-2 h-4 w-4 text-main' />
+            <Link href='/' className='uppercase'>
+              Dashboard</Link>
+          </CommandItem>
+          <CommandItem>
+            <BsNewspaper className='uppercase mr-2 h-4 w-4 text-main' />
+            <Link href='/posts' className='uppercase'>
+              Posts
+            </Link>
+          </CommandItem>
+          <CommandItem>
+            <PiFolders className='uppercase mr-2 h-4 w-4 text-main' />
+            <Link href='#' className='uppercase'>
+              Categories
+            </Link>
+          </CommandItem>
         </CommandGroup>
         <CommandSeparator />
         <CommandGroup heading='Settings'>
