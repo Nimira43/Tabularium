@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-weight: 300;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -68,4 +72,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.logo {
+  font-family: 'Loved by the King', serif;
 }
