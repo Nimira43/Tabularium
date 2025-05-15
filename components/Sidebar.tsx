@@ -1,5 +1,10 @@
-import { CommandInput, CommandList, CommandEmpty, CommandGroup, CommandItem, CommandSeparator } from 'cmdk'
-import { Command } from 'lucide-react'
+import { Command, CommandInput, CommandList, CommandEmpty, CommandGroup, CommandItem, CommandSeparator } from 'cmdk'
+import { RxDashboard } from "react-icons/rx"
+import { BsNewspaper } from "react-icons/bs"
+import { PiFolders } from "react-icons/pi"
+import { ImCreditCard } from "react-icons/im"
+import { TbSettings } from "react-icons/tb"
+
 import Link from 'next/link'
 
 const Sidebar = () => {
