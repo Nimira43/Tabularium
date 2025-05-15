@@ -1,9 +1,9 @@
-import { Command, CommandInput, CommandList, CommandEmpty, CommandGroup, CommandItem, CommandSeparator } from '@/components/ui/command'
-import { RxDashboard } from "react-icons/rx"
-import { BsNewspaper } from "react-icons/bs"
-import { PiFolders } from "react-icons/pi"
-import { ImCreditCard } from "react-icons/im"
-import { TbSettings } from "react-icons/tb"
+import { Command, CommandInput, CommandList, CommandEmpty, CommandGroup, CommandItem, CommandSeparator, CommandShortcut } from '@/components/ui/command'
+import { RxDashboard } from 'react-icons/rx'
+import { BsNewspaper } from 'react-icons/bs'
+import { PiFolders, PiUserCircle  } from 'react-icons/pi'
+import { ImCreditCard } from 'react-icons/im'
+import { TbSettings } from 'react-icons/tb'
 import Link from 'next/link'
 
 const Sidebar = () => {
@@ -33,7 +33,11 @@ const Sidebar = () => {
         </CommandGroup>
         <CommandSeparator />
         <CommandGroup heading='Settings'>
-          <CommandItem>Profile</CommandItem>
+          <CommandItem>
+            <PiUserCircle className='text-main mr-2 h-4 w-4' />
+            <span className='uppercase'>Profile</span>
+            <CommandShortcut>^P</CommandShortcut>
+          </CommandItem>
           <CommandItem>Billing</CommandItem>
           <CommandItem>Settings</CommandItem>
         </CommandGroup>
