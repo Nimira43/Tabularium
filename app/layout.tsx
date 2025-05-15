@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'Tabularium',
-  description: 'Using Next JS, Tailwind, TypeScript and Shadcn',
+  description: 'Admin dashboard using Next JS, Tailwind, TypeScript and Shadcn',
 }
 
 export default function RootLayout({
