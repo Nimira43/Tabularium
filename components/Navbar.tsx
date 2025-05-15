@@ -9,7 +9,6 @@ const Navbar = () => {
       <Link href='/'>
         <VscDashboard className='text-main h-10 w-10 mt-1'/>
       </Link>
-      
       <DropdownMenu>
         <DropdownMenuTrigger className='focus:outline-none'>
           <Avatar>
@@ -20,10 +19,16 @@ const Navbar = () => {
         <DropdownMenuContent>
           <DropdownMenuLabel>My Account</DropdownMenuLabel>
           <DropdownMenuSeparator />
-          <DropdownMenuItem>Profile</DropdownMenuItem>
-          <DropdownMenuItem>Billing</DropdownMenuItem>
-          <DropdownMenuItem>Team</DropdownMenuItem>
-          <DropdownMenuItem>Subscription</DropdownMenuItem>
+          <DropdownMenuItem>
+            <Link href='/profile'>
+              Profile
+            </Link>
+          </DropdownMenuItem>
+          <DropdownMenuItem>
+          <Link href='/auth'>
+              Logout
+            </Link>
+          </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
 
