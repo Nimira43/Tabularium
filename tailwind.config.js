@@ -16,7 +16,7 @@ module.exports = {
   			'grey-dark': '#333',
   			'grey-medium': '#898989',
   			'grey-light': '#ccc',
-  			'grey-light-dark': '#eee',
+  			'grey-light-extra': '#eee',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
