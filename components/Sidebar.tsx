@@ -35,11 +35,19 @@ const Sidebar = () => {
         <CommandGroup heading='Settings'>
           <CommandItem>
             <PiUserCircle className='text-main mr-2 h-4 w-4' />
-            <span className='uppercase'>Profile</span>
+            <span className='uppercase'>Account</span>
+            <CommandShortcut>^A</CommandShortcut>
+          </CommandItem>
+          <CommandItem>
+            <ImCreditCard className='text-main mr-2 h-4 w-4' />
+            <span className='uppercase'>Payments</span>
             <CommandShortcut>^P</CommandShortcut>
           </CommandItem>
-          <CommandItem>Billing</CommandItem>
-          <CommandItem>Settings</CommandItem>
+          <CommandItem>
+            <ImCreditCard className='text-main mr-2 h-4 w-4' />
+            <span className='uppercase'>Settings</span>
+            <CommandShortcut>^S</CommandShortcut>
+          </CommandItem>
         </CommandGroup>
       </CommandList>
     </Command>
