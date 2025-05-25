@@ -1,6 +1,12 @@
+import { BsNewspaper } from 'react-icons/bs'
+import { Card, CardContent } from '../ui/card'
+
 const DashboardCard = () => {
   return ( 
-    <div>Dashboard Card</div>
+    <Card className='bg-grey-light-extra dark:bg-dark text-dark dark:text-light'>
+
+
+    </Card>
    )
 }
  

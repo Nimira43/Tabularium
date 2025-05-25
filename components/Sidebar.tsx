@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 const Sidebar = () => {
   return ( 
-    <Command className='bg-grey-light-extra border-r-[1px] border-main rounded-none'>
+    <Command className='bg-grey-light-extra dark:bg-dark text-dark dark:text-light border-r-[1px] border-main rounded-none'>
       <CommandInput placeholder='Search...' />
       <CommandList>
         <CommandEmpty>No results found.</CommandEmpty>
@@ -44,7 +44,7 @@ const Sidebar = () => {
             <CommandShortcut>^P</CommandShortcut>
           </CommandItem>
           <CommandItem>
-            <ImCreditCard className='text-main mr-2 h-4 w-4' />
+            <TbSettings className='text-main mr-2 h-4 w-4' />
             <span className='uppercase'>Settings</span>
             <CommandShortcut>^S</CommandShortcut>
           </CommandItem>
