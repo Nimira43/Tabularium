@@ -1,5 +1,5 @@
 import { Card, CardContent } from '../ui/card'
-import { LucideIcon, Milestone } from 'lucide-react'
+import { LucideIcon } from 'lucide-react'
 
 interface DashboardCardProps {
   title: string

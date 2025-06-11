@@ -1,5 +1,5 @@
 import DashboardCard from '@/components/dashboard/DashboardCard'
-import { Milestone } from 'lucide-react'
+import { FolderClosed, MessageSquare, Milestone, UserCircle } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -9,6 +9,21 @@ export default function Home() {
           title='Posts'
           count={48}
           icon={<Milestone className='text-main' size={72} />}
+        />
+        <DashboardCard 
+          title='Categories'
+          count={11}
+          icon={<FolderClosed className='text-main' size={72} />}
+        />
+        <DashboardCard 
+          title='User'
+          count={518}
+          icon={<UserCircle className='text-main' size={72} />}
+        />
+        <DashboardCard 
+          title='Comments'
+          count={852}
+          icon={<MessageSquare className='text-main' size={72} />}
         />
       </div>
     </>
