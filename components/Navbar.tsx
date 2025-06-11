@@ -5,7 +5,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel,
 
 const Navbar = () => {
   return ( 
-    <div className='bg-grey-light-extra dark:bg-dark text-dark dark:text-light py-2 px-5 flex justify-between border-b-[1px] border-main'>
+    <div className='bg-grey-light-extra dark:bg-dark text-dark dark:text-light py-2 px-5 flex justify-between '>
       <Link href='/'>
         <VscDashboard className='text-main h-10 w-10 mt-1'/>
       </Link>
