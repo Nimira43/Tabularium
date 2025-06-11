@@ -16,7 +16,7 @@ export default function Home() {
           icon={<FolderClosed className='text-main' size={72} />}
         />
         <DashboardCard 
-          title='User'
+          title='Users'
           count={518}
           icon={<UserCircle className='text-main' size={72} />}
         />
