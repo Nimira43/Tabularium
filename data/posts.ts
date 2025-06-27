@@ -5,8 +5,8 @@ const posts: Post[] = [
     id: '1',
     title: 'React: The Declarative Revolution',
     body: 'React introduced a paradigm shift in UI development with its component-based architecture...',
-    author: 'Evan Sterling',
-    date: '2024-05-01',
+    author: 'Eddie Sterling',
+    date: '2024-06-23',
     comments: [
       { 
         id: '1', 
