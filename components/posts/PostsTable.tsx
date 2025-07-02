@@ -1,4 +1,4 @@
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
+import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import Link from 'next/link'
 import posts from '@/data/posts'
 import { Post } from '@/types/posts'
@@ -13,7 +13,21 @@ const PostsTable = ({
   title
 }: PostsTableProps) => {
   return ( 
-    <div>Posts Table</div>
+    <div className='mt-10'>
+      <h3 className='text-2xl mb-4 font-medium'>
+        { title ? title : 'Posts' }
+      </h3>
+      <Table>
+        <TableCaption>Recent Posts</TableCaption>
+        <TableHeader>
+          <TableRow>
+            <TableHead>Title</TableHead>
+            <TableHead>Author</TableHead>
+            <TableHead>Date</TableHead>
+          </TableRow>
+        </TableHeader>
+      </Table>
+    </div>
    )
 }
  

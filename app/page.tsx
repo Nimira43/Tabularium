@@ -27,7 +27,9 @@ export default function Home() {
           icon={<MessageSquare className='text-main' size={72} />}
         />
       </div>
-      <PostsTable />
+      <PostsTable 
+        title='Latest Posts'
+      />
     </>
   )
 }
