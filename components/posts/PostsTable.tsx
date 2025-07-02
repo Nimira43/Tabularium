@@ -3,6 +3,12 @@ import Link from 'next/link'
 import posts from '@/data/posts'
 import { Post } from '@/types/posts'
 
+interface PostsTableProps {
+  limit?: number
+  title?: string
+}
+
+
 const PostsTable = () => {
   return ( 
     <div>Posts Table</div>
