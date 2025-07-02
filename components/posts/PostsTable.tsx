@@ -8,8 +8,10 @@ interface PostsTableProps {
   title?: string
 }
 
-
-const PostsTable = () => {
+const PostsTable = ({
+  limit,
+  title
+}: PostsTableProps) => {
   return ( 
     <div>Posts Table</div>
    )
