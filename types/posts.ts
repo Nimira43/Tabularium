@@ -6,3 +6,9 @@ export interface Post {
   date: string
   comments: PostComment[]
 }
+
+export interface PostComment {
+  id: string
+  text: string
+  username: string
+}
