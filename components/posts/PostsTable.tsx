@@ -35,6 +35,11 @@ const PostsTable = ({
               >
                 { post.author }
               </TableCell>
+              <TableCell
+                className='text-right hidden md:table-cell'
+              >
+                { post.date }
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>
