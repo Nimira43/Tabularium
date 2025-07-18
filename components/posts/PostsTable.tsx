@@ -26,6 +26,18 @@ const PostsTable = ({
             <TableHead className='hidden md:table-cell text-right'>Date</TableHead>
           </TableRow>
         </TableHeader>
+        <TableBody>
+          { posts.map((post) => (
+            <TableRow key={post.id}>
+              <TableCell>{ post.title }</TableCell>
+              <TableCell
+                className='hidden md:table-cell'
+              >
+                { post.author }
+              </TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
       </Table>
     </div>
    )
