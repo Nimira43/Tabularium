@@ -24,6 +24,7 @@ const PostsTable = ({
             <TableHead>Title</TableHead>
             <TableHead className='hidden md:table-cell'>Author</TableHead>
             <TableHead className='hidden md:table-cell text-right'>Date</TableHead>
+            <TableHead>View</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -39,6 +40,17 @@ const PostsTable = ({
                 className='text-right hidden md:table-cell'
               >
                 { post.date }
+              </TableCell>
+              <TableCell>
+                <Link 
+                  href={`/posts/edit/${post.id}`}
+                >
+                  <button
+                    className='bg-main hover:bg-dark text-light '
+                  >
+                    Edit
+                  </button>
+                </Link>
               </TableCell>
             </TableRow>
           ))}

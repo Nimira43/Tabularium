@@ -77,3 +77,8 @@
 .logo {
   font-family: 'Loved by the King', cursive;
 }
+
+button span span,
+table tbody tr td a button {
+  transition: all 0.5s ease-in-out;
+}
