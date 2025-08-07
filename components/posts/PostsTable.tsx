@@ -12,7 +12,8 @@ const PostsTable = ({
   limit,
   title
 }: PostsTableProps) => {
-  const sortedPost: Post[] = [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  const sortedPosts: Post[] = [...posts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+
 
 
   return ( 
@@ -31,7 +32,7 @@ const PostsTable = ({
           </TableRow>
         </TableHeader>
         <TableBody>
-          { posts.map((post) => (
+          { sortedPosts.map((post) => (
             <TableRow key={post.id}>
               <TableCell>{ post.title }</TableCell>
               <TableCell
