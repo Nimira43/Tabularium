@@ -34,7 +34,7 @@ const PostsTable = ({
           </TableRow>
         </TableHeader>
         <TableBody>
-          { sortedPosts.map((post) => (
+          { filteredPosts.map((post) => (
             <TableRow key={post.id}>
               <TableCell>{ post.title }</TableCell>
               <TableCell
