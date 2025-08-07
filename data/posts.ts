@@ -98,7 +98,7 @@ const posts: Post[] = [
     title: 'NestJS: Architecting APIs with TypeScript Precision',
     body: 'NestJS blends OOP, FP, and FRP into a modular powerhouse for building scalable server-side apps. With decorators, DI, and a CLI that feels like a commander\'s toolkit, it\’s a TypeScript fortress.',
     author: 'Cassian Rhodes',
-    date: '2024-04-18',
+    date: '2025-04-18',
     comments: [
       { id: '1', text: 'The module system is so clean and intuitive.', username: 'Juno' },
       { id: '2', text: 'I love how it integrates with GraphQL and WebSockets.', username: 'Orion' },
@@ -109,7 +109,7 @@ const posts: Post[] = [
     title: 'Laravel: Elegance in PHP’s Renaissance',
     body: 'Laravel turns PHP into poetry. With expressive syntax, artisan commands, and Eloquent ORM, it’s a framework that invites you to build with grace and speed—no boilerplate, just brilliance.',
     author: 'Lyra Fontaine',
-    date: '2024-07-25',
+    date: '2025-07-25',
     comments: [
       { id: '1', text: 'Blade templating is so satisfying to use.', username: 'Nova' },
       { id: '2', text: 'Laravel Forge made deployment a breeze.', username: 'Kai' },
