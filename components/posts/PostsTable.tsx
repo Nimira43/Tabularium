@@ -12,6 +12,9 @@ const PostsTable = ({
   limit,
   title
 }: PostsTableProps) => {
+  const sortedPost: Post[] = [...posts].sort()
+
+
   return ( 
     <div className='mt-10'>
       <h3 className='text-2xl mb-4 font-medium'>
