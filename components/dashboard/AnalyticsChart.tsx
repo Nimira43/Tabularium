@@ -6,7 +6,18 @@ import data from '@/data/analytics'
 
 const AnalyticsChart = () => {
   return ( 
-    <div></div>
+    <>
+      <Card>
+        <CardHeader>
+          <CardTitle
+            className='font-medium'
+          >
+            This Year's Analytics
+          </CardTitle>
+          <CardDescription>Views Per Month</CardDescription>
+        </CardHeader>
+      </Card>
+    </>
    )
 }
  
