@@ -28,7 +28,9 @@ export default function Home() {
           icon={<MessageSquare className='text-main' size={72} />}
         />
       </div>
-      <AnalyticsChart />
+      <AnalyticsChart 
+        
+      />
       <PostsTable 
         title='Latest Posts'
         limit={5}

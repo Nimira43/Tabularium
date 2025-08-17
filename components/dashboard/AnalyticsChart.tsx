@@ -1,6 +1,8 @@
+import {} from 'recharts'
+
 const AnalyticsChart = () => {
   return ( 
-    <div>Analytics Chart</div>
+    <div></div>
    )
 }
  
