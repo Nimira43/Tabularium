@@ -20,7 +20,15 @@ const AnalyticsChart = () => {
           <div 
             style={{width: '100%', height: 300}}
           >
+            <ResponsiveContainer>
+              <LineChart
+                width={1100}
+                height={300}
+                data={data}
+              >
 
+              </LineChart>
+            </ResponsiveContainer>
           </div>
         </CardContent>
       </Card>
