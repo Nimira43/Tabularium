@@ -26,7 +26,11 @@ const AnalyticsChart = () => {
                 height={300}
                 data={data}
               >
-
+                <Line 
+                  type='monotone'
+                  dataKey='uv'
+                  stroke='#ff4500'
+                />
               </LineChart>
             </ResponsiveContainer>
           </div>
