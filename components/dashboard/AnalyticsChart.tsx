@@ -31,10 +31,11 @@ const AnalyticsChart = () => {
                   dataKey='uv'
                   stroke='#ff4500'
                 />
-              </LineChart>
-              <CartesianGrid
+                <CartesianGrid
                 stroke='#ccc'
               />
+              </LineChart>
+              
             </ResponsiveContainer>
           </div>
         </CardContent>
