@@ -32,8 +32,12 @@ const AnalyticsChart = () => {
                   stroke='#ff4500'
                 />
                 <CartesianGrid
-                stroke='#ccc'
-              />
+                  stroke='#ccc'
+                />
+                <XAxis 
+                  dataKey='name'
+                />
+                <YAxis />
               </LineChart>
               
             </ResponsiveContainer>
