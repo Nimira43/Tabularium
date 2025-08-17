@@ -32,6 +32,9 @@ const AnalyticsChart = () => {
                   stroke='#ff4500'
                 />
               </LineChart>
+              <CartesianGrid
+                stroke='#ccc'
+              />
             </ResponsiveContainer>
           </div>
         </CardContent>
