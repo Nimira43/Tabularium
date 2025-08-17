@@ -16,6 +16,13 @@ const AnalyticsChart = () => {
           </CardTitle>
           <CardDescription>Views Per Month</CardDescription>
         </CardHeader>
+        <CardContent>
+          <div 
+            style={{width: '100%', height: 300}}
+          >
+
+          </div>
+        </CardContent>
       </Card>
     </>
    )
