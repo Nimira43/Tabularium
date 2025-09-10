@@ -1,6 +1,14 @@
+import { Pagination, PaginationContent, PaginationItem, PaginationPrevious } from '../ui/pagination'
+
 const PostsPagination = () => {
   return ( 
-    <div>Posts Pagination</div>
+    <Pagination>
+      <PaginationContent>
+        <PaginationItem>
+          <PaginationPrevious href='#' />
+        </PaginationItem>
+      </PaginationContent>
+    </Pagination>  
   )
 }
   
