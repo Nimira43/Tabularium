@@ -1,4 +1,4 @@
-import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationPrevious } from '../ui/pagination'
+import { Pagination, PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from '../ui/pagination'
 
 const PostsPagination = () => {
   return ( 
@@ -15,6 +15,12 @@ const PostsPagination = () => {
         </PaginationItem>
         <PaginationItem>
           <PaginationLink href='#'>3</PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationEllipsis />
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationNext href='#' />
         </PaginationItem>
       </PaginationContent>
     </Pagination>  
