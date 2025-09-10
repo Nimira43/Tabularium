@@ -1,7 +1,6 @@
 import Backbutton from '@/components/BackButton'
+import PostsPagination from '@/components/posts/PostsPagination'
 import PostsTable from '@/components/posts/PostsTable'
-// import PostsPagination from '@/components/posts/PostsPagination'
-import PostsPagination from '../../../components/posts/PostsPagination'
 
 const PostsPage = () => {
   return ( 
