@@ -1,6 +1,6 @@
 const PostsPagination = () => {
   return ( 
-    <div>PostsPagination</div>
+    <div className='text-red-500'>Hello</div>
    )
 }
  
