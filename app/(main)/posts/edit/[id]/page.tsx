@@ -2,7 +2,12 @@ import Backbutton from '@/components/BackButton'
 
 const PostEditPage = () => {
   return ( 
-    <div>Post Edit Page</div>
+    <>
+      <Backbutton 
+        text='Back to Posts'
+        link='/posts'
+      />
+    </>
   )
 }
  
