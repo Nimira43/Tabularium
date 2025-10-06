@@ -10,6 +10,10 @@ import { Textarea } from '@/components/ui/textarea'
 import { Button } from '@/components/ui/button'
 import posts from '@/data/posts'
 
+const formSchema = z.object({
+  
+})
+
 const PostEditPage = () => {
   return ( 
     <>
