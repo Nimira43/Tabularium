@@ -1,4 +1,8 @@
+'use client'
+
 import Backbutton from '@/components/BackButton'
+import * as z from 'zod'
+import { useForm } from 'react-hook-form'
 
 const PostEditPage = () => {
   return ( 
