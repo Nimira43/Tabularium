@@ -54,15 +54,34 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
         text='Back to Posts'
         link='/posts'
       />
-      <h3 className='text-2xl mb-4'></h3>
-      <Form
-        {...form}
-      >
+      <h3 className='text-2xl mb-4'>Edit Post</h3>
+      <Form {...form}>
         <form
           onSubmit={form.handleSubmit(handleSubmit)}
           className='space-y-8'
         >
-
+          <FormField
+            control={form.control}
+            name='title'
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel
+                  className='uppercase text-xs font-medium'  
+                >
+                  Title
+                </FormLabel>  
+                <FormControl>
+                  <Input 
+                    className='bg-grey-light-extra focus-visible:ring-0 focus-visible:ring-offset-0'
+                    placeholder='Enter Title' 
+                    {...field} 
+                    
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
         </form>
       </Form>
     </>
