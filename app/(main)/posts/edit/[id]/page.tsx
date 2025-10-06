@@ -34,6 +34,10 @@ interface PostEditPageProps {
 const PostEditPage = ({ params }: PostEditPageProps) => {
   const post = posts.find((post) => post.id === params.id)
 
+  const form = useForm<z.infer<typeof formSchema>>({
+    
+  })
+
   return ( 
     <>
       <Backbutton 
