@@ -5,6 +5,9 @@ import * as z from 'zod'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { Form, FormControl, FormItem, FormField, FormLabel, FormMessage } from '@/components/ui/form' 
+import { Input } from '@/components/ui/input'
+import { Textarea } from '@/components/ui/textarea'
+import { Button } from '@/components/ui/button'
 
 const PostEditPage = () => {
   return ( 
