@@ -31,7 +31,7 @@ interface PostEditPageProps {
   }
 }
 
-const PostEditPage = () => {
+const PostEditPage = ({ params }: PostEditPageProps) => {
   return ( 
     <>
       <Backbutton 
