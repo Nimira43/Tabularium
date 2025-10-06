@@ -44,7 +44,9 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
     }
   })
 
-  
+  const handleSubmit = (data: z.infer<typeof formSchema>) => {
+    console.log(data)
+  }
 
   return ( 
     <>
