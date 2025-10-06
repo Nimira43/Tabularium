@@ -25,6 +25,12 @@ const formSchema = z.object({
   }),
 })
 
+interface PostEditPageProps {
+  params: {
+    id: string
+  }
+}
+
 const PostEditPage = () => {
   return ( 
     <>
