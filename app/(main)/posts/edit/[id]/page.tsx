@@ -148,6 +148,12 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
               </FormItem>
             )}
           />
+          <Button
+            className='w-full bg-main text-light uppercase'
+          >
+            Update Post
+
+          </Button>
         </form>
       </Form>
     </>
