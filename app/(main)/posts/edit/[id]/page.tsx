@@ -126,6 +126,28 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
               </FormItem>
             )}
           />
+          <FormField
+            control={form.control}
+            name='date'
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel
+                  className='uppercase text-xs font-medium'  
+                >
+                  Date
+                </FormLabel>  
+                <FormControl>
+                  <Input 
+                    className='bg-grey-light-extra focus-visible:ring-0 focus-visible:ring-offset-0'
+                    placeholder='Enter Date' 
+                    {...field} 
+                    
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
         </form>
       </Form>
     </>
