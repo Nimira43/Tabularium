@@ -82,6 +82,28 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
               </FormItem>
             )}
           />
+          <FormField
+            control={form.control}
+            name='body'
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel
+                  className='uppercase text-xs font-medium'  
+                >
+                  Body
+                </FormLabel>  
+                <FormControl>
+                  <Textarea 
+                    className='bg-grey-light-extra focus-visible:ring-0 focus-visible:ring-offset-0'
+                    placeholder='Enter Body' 
+                    {...field} 
+                    
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
         </form>
       </Form>
     </>
