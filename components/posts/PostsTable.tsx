@@ -2,6 +2,7 @@ import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, Tabl
 import Link from 'next/link'
 import posts from '@/data/posts'
 import { Post } from '@/types/posts'
+import { Button } from '../ui/button'
 
 interface PostsTableProps {
   limit?: number
@@ -51,11 +52,11 @@ const PostsTable = ({
                 <Link 
                   href={`/posts/edit/${post.id}`}
                 >
-                  <button
-                    className='bg-main hover:bg-dark text-light font-medium py-2 px-4 uppercase rounded-md'
+                  <Button
+                    className='bg-main hover:bg-dark text-light font-medium py-2 px-4 uppercase rounded-md btn-hover'
                   >
                     Edit
-                  </button>
+                  </Button>
                 </Link>
               </TableCell>
             </TableRow>

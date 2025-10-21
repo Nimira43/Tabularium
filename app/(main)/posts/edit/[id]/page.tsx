@@ -149,7 +149,7 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
             )}
           />
           <Button
-            className='w-full bg-main text-light uppercase'
+            className='w-full bg-main hover:bg-dark text-light uppercase btn-hover'
           >
             Update Post
 
