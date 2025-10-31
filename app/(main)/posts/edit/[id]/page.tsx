@@ -9,6 +9,7 @@ import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { Button } from '@/components/ui/button'
 import posts from '@/data/posts'
+import { useToast } from '@/hooks/use-toast'
 
 const formSchema = z.object({
   title: z.string().min(1, {
@@ -152,7 +153,6 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
             className='w-full bg-main hover:bg-dark text-light uppercase btn-hover'
           >
             Update Post
-
           </Button>
         </form>
       </Form>
