@@ -77,7 +77,7 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
                 </FormLabel>  
                 <FormControl>
                   <Input 
-                    className='bg-grey-light-extra dark:bg-grey-dark focus-visible:ring-0 focus-visible:ring-offset-0'
+                    className='bg-grey-light-extra dark:bg-dark focus-visible:ring-0 focus-visible:ring-offset-0'
                     placeholder='Enter Title' 
                     {...field} 
                     
@@ -99,7 +99,7 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
                 </FormLabel>  
                 <FormControl>
                   <Textarea 
-                    className='bg-grey-light-extra dark:bg-grey-dark focus-visible:ring-0 focus-visible:ring-offset-0'
+                    className='bg-grey-light-extra dark:bg-dark focus-visible:ring-0 focus-visible:ring-offset-0'
                     placeholder='Enter Body' 
                     {...field} 
                     
@@ -121,7 +121,7 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
                 </FormLabel>  
                 <FormControl>
                   <Input 
-                    className='bg-grey-light-extra dark:bg-grey-dark focus-visible:ring-0 focus-visible:ring-offset-0'
+                    className='bg-grey-light-extra dark:bg-dark focus-visible:ring-0 focus-visible:ring-offset-0'
                     placeholder='Enter Author' 
                     {...field} 
                     
@@ -143,7 +143,7 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
                 </FormLabel>  
                 <FormControl>
                   <Input 
-                    className='bg-grey-light-extra dark:bg-grey-dark focus-visible:ring-0 focus-visible:ring-offset-0'
+                    className='bg-grey-light-extra dark:bg-dark focus-visible:ring-0 focus-visible:ring-offset-0'
                     placeholder='Enter Date' 
                     {...field} 
                     
