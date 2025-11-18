@@ -53,7 +53,7 @@ const PostsTable = ({
                   href={`/posts/edit/${post.id}`}
                 >
                   <Button
-                    className='bg-main hover:bg-dark text-light font-medium py-2 px-4 uppercase rounded-md btn-hover'
+                    className='bg-main hover:bg-main-dark text-light font-medium py-2 px-4 uppercase rounded-md btn-hover'
                   >
                     Edit
                   </Button>
