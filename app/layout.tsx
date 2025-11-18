@@ -24,7 +24,12 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={poppins.className}>
-        <ThemeProvider>
+        <ThemeProvider
+          attribute='class'
+          defaultTheme='light'
+          enableSystem={false}
+          storageKey='dashboard-theme'
+        >
           <Navbar />
           <div className='flex'>
             <div className='hidden md:block h-[100vh] w-[300px]'>
