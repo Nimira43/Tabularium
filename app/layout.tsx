@@ -30,7 +30,14 @@ export default function RootLayout({
           enableSystem={false}
           storageKey='dashboard-theme'
         >
-          <Navbar />
+          {children}
+          <Toaster />
+        </ThemeProvider>
+      </body>
+    </html>
+  )
+}
+<Navbar />
           <div className='flex'>
             <div className='hidden md:block h-[100vh] w-[300px]'>
               <Sidebar />
@@ -39,9 +46,3 @@ export default function RootLayout({
               {children}
             </div>
           </div>
-          <Toaster />
-        </ThemeProvider>
-      </body>
-    </html>
-  )
-}
