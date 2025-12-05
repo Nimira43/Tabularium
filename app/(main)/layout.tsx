@@ -1,4 +1,4 @@
-const AuthLayout = ({
+const MainLayout = ({
   children
 }: { 
   children: React.ReactNode
@@ -10,4 +10,4 @@ const AuthLayout = ({
   )
 }
  
-export default AuthLayout
+export default MainLayout
