@@ -1,6 +1,12 @@
+import { Tabs } from '../ui/tabs'
+
 const AuthTabs = () => {
   return ( 
-    <div>AuthTabs</div>
+    <Tabs
+
+    >
+      
+    </Tabs>
    )
 }
  
