@@ -1,4 +1,4 @@
-import { Tabs, TabsList, TabsTrigger } from '../ui/tabs'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs'
 
 const AuthTabs = () => {
   return ( 
@@ -10,6 +10,8 @@ const AuthTabs = () => {
         <TabsTrigger value=''>Value</TabsTrigger>
         <TabsTrigger value=''>Value</TabsTrigger>
       </TabsList>
+      <TabsContent value=''>Content</TabsContent>
+      <TabsContent value=''>Content</TabsContent>
     </Tabs>
    )
 }
