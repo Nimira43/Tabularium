@@ -3,15 +3,15 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs'
 const AuthTabs = () => {
   return ( 
     <Tabs
-      defaultValue=''
+      defaultValue='account'
       className='w-[400px]'
     >
-      <TabsList>
-        <TabsTrigger value=''>Value</TabsTrigger>
-        <TabsTrigger value=''>Value</TabsTrigger>
+      <TabsList className='grid w-full grid-cols-2'>
+        <TabsTrigger value='account'>Account</TabsTrigger>
+        <TabsTrigger value='password'>Password</TabsTrigger>
       </TabsList>
-      <TabsContent value=''>Content</TabsContent>
-      <TabsContent value=''>Content</TabsContent>
+      <TabsContent value='account'>Content 2333</TabsContent>
+      <TabsContent value='password'>Content 4242</TabsContent>
     </Tabs>
    )
 }
