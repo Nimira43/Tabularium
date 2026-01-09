@@ -70,9 +70,7 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
             name='title'
             render={({ field }) => (
               <FormItem>
-                <FormLabel
-                  className='uppercase text-xs font-medium'  
-                >
+                <FormLabel className='uppercase text-xs font-medium'>
                   Title
                 </FormLabel>  
                 <FormControl>
@@ -92,9 +90,7 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
             name='body'
             render={({ field }) => (
               <FormItem>
-                <FormLabel
-                  className='uppercase text-xs font-medium'  
-                >
+                <FormLabel className='uppercase text-xs font-medium'>
                   Body
                 </FormLabel>  
                 <FormControl>
@@ -114,9 +110,7 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
             name='author'
             render={({ field }) => (
               <FormItem>
-                <FormLabel
-                  className='uppercase text-xs font-medium'  
-                >
+                <FormLabel className='uppercase text-xs font-medium'>
                   Author
                 </FormLabel>  
                 <FormControl>
@@ -136,9 +130,7 @@ const PostEditPage = ({ params }: PostEditPageProps) => {
             name='date'
             render={({ field }) => (
               <FormItem>
-                <FormLabel
-                  className='uppercase text-xs font-medium'  
-                >
+                <FormLabel className='uppercase text-xs font-medium'>
                   Date
                 </FormLabel>  
                 <FormControl>
